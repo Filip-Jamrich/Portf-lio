@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Fotografie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1 class="logo">Moje Fotografie</h1>
+        <ul>
+            <li><a href="#home">Domov</a></li>
+            <li><a href="#gallery">Galéria</a></li>
+            <li><a href="#about">O mne</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-text">
+        <h2>Vitajte v mojom svete fotografie</h2>
+        <p>Umelecký pohľad na každodenné momenty</p>
+    </div>
+</section>
+
+<section id="gallery" class="gallery">
+    <h2>Galéria</h2>
+    <div class="grid">
+        <img src="images/photo1.jpg" alt="Fotka 1">
+        <img src="images/photo2.jpg" alt="Fotka 2">
+        <img src="images/photo3.jpg" alt="Fotka 3">
+        <img src="images/photo4.jpg" alt="Fotka 4">
+        <img src="images/photo5.jpg" alt="Fotka 5">
+        <img src="images/photo6.jpg" alt="Fotka 6">
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>O mne</h2>
+    <p>Som vášnivý fotograf, ktorý sa snaží zachytiť krásu sveta okolo nás.
+       Moje fotografie sú kombináciou kreativity, technickej zručnosti a umeleckého cítenia.</p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Kontakt</h2>
+    <form>
+        <input type="text" placeholder="Vaše meno" required>
+        <input type="email" placeholder="Váš email" required>
+        <textarea placeholder="Vaša správa" required></textarea>
+        <button type="submit">Odoslať</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Moje Fotografie. Všetky práva vyhradené.</p>
+</footer>
+
+<!-- Lightbox -->
+<div id="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
