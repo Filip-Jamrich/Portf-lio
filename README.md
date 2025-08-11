@@ -1,4 +1,4 @@
-# Filip Photography – Portfólio fotografa
+# Filip Photography 
 
 ## 🇸🇰 Slovenská verzia
 
